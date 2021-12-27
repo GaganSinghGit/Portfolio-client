@@ -1,0 +1,16 @@
+.profile-container{
+  display: flex;
+  background-color:1E5128;
+  
+  font-weight: bold;
+  padding:20px;
+}
+
+.profile-parent {
+  
+  width:50%;
+}
+
+.icon-container{
+  color: aliceblue;
+}

@@ -1,0 +1,32 @@
+.cards-container{
+  background-color: #2D4263;
+  margin: 30px 0px 20px 0px;
+  
+  display:flex;
+  flex-direction: column;
+}
+
+
+.cards-container-heading{
+  display: flex;
+}
+
+.cards{
+  display: flex;
+  padding: 0 55px;
+  width:100%;
+  
+}
+
+.cards > *{
+  margin: 0px 20px 0px 20px;
+  transition: transform 300ms ease 100ms;
+}
+
+.cards:hover .card {
+   transform: translateX(-25%);
+}
+
+.card:hover ~ .card {
+   transform: translateX(25%);
+}
